@@ -1,0 +1,21 @@
+.Pokecard{
+    text-align: center;
+    background-color: grey;
+    width: 250px;
+    border-radius: 10px;
+}
+.Pokecard-img{
+    background-color: white;
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+img{
+    transition: transform 1s;
+}
+img:hover{
+    transform: scale(1.2);
+}
+span{
+    font-weight: bold;
+}
